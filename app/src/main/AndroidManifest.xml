@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySQLpro"
         android:usesCleartextTraffic="true">
-        <activity android:name=".database.EditTeman"></activity>
+        <activity android:name=".EditTeman"></activity>
         <activity android:name=".TambahTeman" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -24,7 +24,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.example.mysqlpro.MainActivity;
 import com.example.mysqlpro.R;
 import com.example.mysqlpro.app.AppController;
-import com.example.mysqlpro.database.EditTeman;
+import com.example.mysqlpro.EditTeman;
 import com.example.mysqlpro.database.Teman;
 
 import org.json.JSONException;
@@ -112,7 +112,7 @@ public class TemanAdapter extends RecyclerView.Adapter<TemanAdapter.TemanViewHol
         });
     }
     private void HapusData(final String idx){
-        String url_update = "http://10.0.2.2/umyTI/deletetm.php";
+        String url_update = "http://10.0.2.2:8036/umyTI/deletetm.php";
         final String TAG = MainActivity.class.getSimpleName();
         final String TAG_SUCCESS = "success";
         final int[] sukses = new int[1];
